@@ -1,0 +1,23 @@
+name: file operations in Git Hub
+
+on: push
+
+jobs:
+  files:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Create one file
+        run: echo "SK DEVOPS Hi Welcome to GHA Scripts" > devops.txt
+
+      - name: display the content of the file
+        run: cat devops.txt
+
+      - name: Display the date
+        run: date
+
+      - name: Display the Files and Directories
+        run: ls -lrth
+
+      - name: Display the Present Location
+        run: pwd        
