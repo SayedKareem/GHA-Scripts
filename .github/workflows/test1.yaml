@@ -1,16 +1,16 @@
 
 name: Test Workflow
 
-on: Push
+on: push
 
 jobs:
    test-job:
-      runs-on: ubuntu-lates
+      runs-on: ubuntu-latest
 
       steps:
-        -name: Hello Display
-        run: echo "hello sayed Kareem"
+        - name: Hello Display
+          run: echo "hello sayed Kareem"
         
-        -name: Display Date 
-        run: date
+        - name: Display Date 
+          run: date
 
