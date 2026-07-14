@@ -1,5 +1,5 @@
 
-name: This is A GHA- Scripts Practice 1
+name: Test Workflow
 
 on: Push
 
