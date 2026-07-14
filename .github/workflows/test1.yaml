@@ -1,1 +1,16 @@
 
+name: This is A GHA- Scripts Practice 1
+
+on: Push
+
+jobs:
+   test-job:
+      runs-on: ubuntu-lates
+
+      steps:
+        -name: Hello Display
+        run: echo "hello sayed Kareem"
+        
+        -name: Display Date 
+        run: date
+
